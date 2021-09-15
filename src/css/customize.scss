@@ -1,0 +1,45 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+$theme-colors: (
+    "primary": #7352FF,
+);
+
+$font-family-1: 'Circular Std', sans-serif;
+
+body{
+    font-family: $font-family-1 !important;
+    background-color: #7352ff !important;
+    color: #ffffff !important;
+}
+
+.mySpan{
+    background-color: #e9e9e9 !important
+}
+
+.cardBG{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 27rem;
+}
+
+@media only screen and (max-width:900px) {
+    .cardBG{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .fs-0{
+        font-size: 10px !important;
+    }
+    .skills{
+        width: 150px !important;
+    }
+    .skills>p{
+        font-size: 10px !important;
+    }
+}
+@import "~bootstrap/scss/bootstrap";
