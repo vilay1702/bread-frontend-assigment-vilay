@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/vilay1702/bread-frontend-assigment-vilay/static/css/main.520cde73.chunk.css",
+    "main.js": "/vilay1702/bread-frontend-assigment-vilay/static/js/main.7b51f183.chunk.js",
+    "main.js.map": "/vilay1702/bread-frontend-assigment-vilay/static/js/main.7b51f183.chunk.js.map",
+    "runtime-main.js": "/vilay1702/bread-frontend-assigment-vilay/static/js/runtime-main.165c1946.js",
+    "runtime-main.js.map": "/vilay1702/bread-frontend-assigment-vilay/static/js/runtime-main.165c1946.js.map",
+    "static/js/2.15ec65df.chunk.js": "/vilay1702/bread-frontend-assigment-vilay/static/js/2.15ec65df.chunk.js",
+    "static/js/2.15ec65df.chunk.js.map": "/vilay1702/bread-frontend-assigment-vilay/static/js/2.15ec65df.chunk.js.map",
+    "static/js/3.5036d17d.chunk.js": "/vilay1702/bread-frontend-assigment-vilay/static/js/3.5036d17d.chunk.js",
+    "static/js/3.5036d17d.chunk.js.map": "/vilay1702/bread-frontend-assigment-vilay/static/js/3.5036d17d.chunk.js.map",
+    "index.html": "/vilay1702/bread-frontend-assigment-vilay/index.html",
+    "static/css/main.520cde73.chunk.css.map": "/vilay1702/bread-frontend-assigment-vilay/static/css/main.520cde73.chunk.css.map",
+    "static/js/2.15ec65df.chunk.js.LICENSE.txt": "/vilay1702/bread-frontend-assigment-vilay/static/js/2.15ec65df.chunk.js.LICENSE.txt",
+    "static/media/background.3f72cdb2.png": "/vilay1702/bread-frontend-assigment-vilay/static/media/background.3f72cdb2.png",
+    "static/media/profilePic.8e279e48.png": "/vilay1702/bread-frontend-assigment-vilay/static/media/profilePic.8e279e48.png",
+    "static/media/yoga1.444c9095.png": "/vilay1702/bread-frontend-assigment-vilay/static/media/yoga1.444c9095.png",
+    "static/media/yoga2.75ff3762.png": "/vilay1702/bread-frontend-assigment-vilay/static/media/yoga2.75ff3762.png",
+    "static/media/yoga3.45cbdcae.png": "/vilay1702/bread-frontend-assigment-vilay/static/media/yoga3.45cbdcae.png",
+    "static/media/youtubeBG.2be9b372.png": "/vilay1702/bread-frontend-assigment-vilay/static/media/youtubeBG.2be9b372.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.165c1946.js",
+    "static/js/2.15ec65df.chunk.js",
+    "static/css/main.520cde73.chunk.css",
+    "static/js/main.7b51f183.chunk.js"
+  ]
+}
