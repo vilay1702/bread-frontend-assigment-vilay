@@ -9,9 +9,15 @@ const Slider = () => {
             <div className="mt-4"></div>
             <h4 className="mt-5 mb-5">{'browse all my offerings'.toUpperCase()}</h4>
             <div className="d-flex justify-content-center align-items-center w-100 overflow-hidden mx-auto">
-                <div className="border border-light p-2 rounded-3 mx-4"><img width={window.innerWidth<"500"?"200px":"350px"} className="" src={yoga1} alt="" /></div>
-                <div className="border border-light p-2 rounded-3 mx-4"><img width={window.innerWidth<"500"?"300px":"500px"} className="" src={yoga2} alt="" /></div>
-                <div className="border border-light p-2 rounded-3 mx-4"><img width={window.innerWidth<"500"?"200px":"350px"} className="" src={yoga3} alt="" /></div>
+                <div className="border border-light p-2 rounded-3 mx-4">
+                    <img width={window.innerWidth<"500"?"200px":"350px"} className="opacity-75" src={yoga1} alt="" />
+                </div>
+                <div className="border border-light p-2 rounded-3 mx-4">
+                    <img width={window.innerWidth<"500"?"300px":"500px"} className="opacity-75" src={yoga2} alt="" />
+                </div>
+                <div className="border border-light p-2 rounded-3 mx-4">
+                    <img width={window.innerWidth<"500"?"200px":"350px"} className="opacity-75" src={yoga3} alt="" />
+                </div>
             </div>
             <span className="py-3">
                 <i role="button" className="fs-3 far fa-arrow-alt-circle-left pe-2"></i>
