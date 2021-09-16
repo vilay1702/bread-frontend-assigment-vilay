@@ -9,14 +9,35 @@ const Slider = () => {
             <div className="mt-4"></div>
             <h4 className="mt-5 mb-5">{'browse all my offerings'.toUpperCase()}</h4>
             <div className="d-flex justify-content-center align-items-center w-100 overflow-hidden mx-auto">
-                <div className="border border-light p-2 rounded-3 mx-4">
+                <div data-aos="fade-left" data-aos-delay="200" className="fs-0 fs-6 border border-light p-2 rounded-3 mx-4">
                     <img width={window.innerWidth<"500"?"200px":"350px"} className="opacity-75" src={yoga1} alt="" />
+                    <div style={{zIndex:100, marginTop:"-100px", marginLeft:"10px"}}>
+                        <span className="px-3 py-2 rounded-pill border border-success">Live</span> <br /><br />
+                        <p>
+                            Friday - Online class <br />
+                            Aug 8, 9:00 AM to 11:00 AM IST
+                        </p>
+                    </div>
                 </div>
-                <div className="border border-light p-2 rounded-3 mx-4">
+                <div data-aos="zoom-in" className="border border-light p-2 rounded-3 mx-4">
                     <img width={window.innerWidth<"500"?"300px":"500px"} className="opacity-75" src={yoga2} alt="" />
+                    <div style={{zIndex:100, marginTop:"-100px", marginLeft:"10px"}}>
+                        <span className="px-3 py-2 rounded-pill border border-success">Live</span> <br /><br />
+                        <p>
+                            Friday - Online class <br />
+                            Aug 8, 9:00 AM to 11:00 AM IST
+                        </p>
+                    </div>
                 </div>
-                <div className="border border-light p-2 rounded-3 mx-4">
+                <div data-aos="fade-right" data-aos-delay="200" className="fs-0 fs-6 border border-light p-2 rounded-3 mx-4">
                     <img width={window.innerWidth<"500"?"200px":"350px"} className="opacity-75" src={yoga3} alt="" />
+                    <div style={{zIndex:100, marginTop:"-100px", marginLeft:"10px"}}>
+                        <span className="px-3 py-2 rounded-pill border border-success">Live</span> <br /><br />
+                        <p>
+                            Friday - Online class <br />
+                            Aug 8, 9:00 AM to 11:00 AM IST
+                        </p>
+                    </div>
                 </div>
             </div>
             <span className="py-3">

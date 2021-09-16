@@ -65,7 +65,6 @@ const CenterCard = () => {
                     <p role="button" className={`text-primary mt-4 ${window.innerWidth<700 && 'd-none'}`} href="/">
                       <strong>Contact me</strong>
                       <i className="fas fa-long-arrow-alt-right ms-2"></i>
-
                     </p>
                   </div>
                   <div data-aos="fade-left" className="border border-dark rounded-3 p-1 border-3 ">
