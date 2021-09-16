@@ -11,8 +11,8 @@ const CenterCard = () => {
     return ( 
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="500">
           {/* image section  */}
-          <div className={`center-card-outer container bg-primary ${window.innerWidth>900 && 'border border-light p-1 rounded'}`} style={{maxWidth: "900px", minHeight:"100vh",}}>
-            <div className={`container bg-light text-dark rounded ${window.innerWidth>"500"?'p-5':'p-3'}`} style={{minHeight:"100vh",}}>
+          <div className={`center-card-outer container bg-primary ${window.innerWidth>900 && 'border border-light p-1 rounded'}`} style={{maxWidth: "900px",}}>
+            <div className={`container bg-light text-dark rounded ${window.innerWidth>"500"?'p-5':'p-3'}`}>
               <div className="d-flex justify-content-between">
                   <div className="d-flex">
                     <div className="rounded border border-2  border-primary p-1">
